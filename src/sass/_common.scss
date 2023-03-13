@@ -1,0 +1,70 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+#player-info,
+#enemy-info {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	text-align: center;
+	width: 200px;
+}
+
+#battle {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    }
+    
+    button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    }
+    
+    button:hover {
+    background-color: #555;
+    }
+    
+    #battle-log {
+    height: 100px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
