@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#problem {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#answer-form {
+    display: flex;
+    align-items: center;
+}
+
+#answer-input {
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+#submit-button {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #0066CC;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #004499;
+}
+
+#score {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
